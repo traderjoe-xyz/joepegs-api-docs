@@ -3,16 +3,18 @@
 ## Collections
 
 - Logo
-    - 200X200
+    - 256X256
+    - `.gif` format are allowed, should be no more than 20 frames
 - Banner 
-    - 1600X500
+    - 1440X288
 
 ## Launchpad
 
 - Launch card
-    - 380X100
+    - 600X300
 - Launch preview
     - 800X800
+    - `.gif` format are allowed, should be no more than 80 frames
 - Unrevealed items
     - 800X800
-    - For `.gif` total size (h x w x frames) should be < 100 mega-pixels.
+    - `.gif` format are allowed, should be no more than 80 frames
