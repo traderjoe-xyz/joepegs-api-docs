@@ -13,7 +13,7 @@ phases:
       - yarn
   build:
     commands:
-      - curl https://$PUBLIC_API_DOMAIN/openapi.json > openapi/openapi.json
+      - curl -H "x-joepegs-api-key: $PUBLIC_API_KEY" https://$PUBLIC_API_DOMAIN/openapi.json > openapi/openapi.json
       - npm run build
       - |
         if [ $ENVIRONMENT != "prod" ] && [ $ENVIRONMENT != "fuji" ]; then
