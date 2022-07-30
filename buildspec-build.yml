@@ -14,6 +14,7 @@ phases:
   build:
     commands:
       - |-
+        mkdir -p openapi
         curl -H "x-joepegs-api-key: $PUBLIC_API_KEY" https://$PUBLIC_API_DOMAIN/openapi.json > openapi/openapi.json
       - npm run build
       - |-
