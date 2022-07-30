@@ -4,6 +4,11 @@
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
+// links
+const APPLICATION_FORM_URL = "https://forms.gle/6tMwevFCicd9nYoCA"
+const VERIFICATION_FORM_URL = "https://forms.gle/ApNx6VvH6zK8kPpDA"
+const LAUNCHPAD_FORM_URL = "https://forms.gle/ApNx6VvH6zK8kPpDA"
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Joepegs API",
@@ -103,9 +108,9 @@ const config = {
           {
             title: "Apply",
             items: [
-              { to: "/apply_key", label: "Apply API Key" },
-              { to: "/verify", label: "Apply Verification" },
-              { to: "/launch", label: "Apply Launchpad" },
+              { href: APPLICATION_FORM_URL, label: "Apply API Key" },
+              { href: VERIFICATION_FORM_URL, label: "Apply Verification" },
+              { href: LAUNCHPAD_FORM_URL, label: "Apply Launchpad" },
 
             ],
           },
