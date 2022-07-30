@@ -13,9 +13,11 @@ phases:
       - yarn
   build:
     commands:
-      - curl -H "x-joepegs-api-key: $PUBLIC_API_KEY" https://$PUBLIC_API_DOMAIN/openapi.json > openapi/openapi.json
+      - |-
+        mkdir -p openapi
+        curl -H "x-joepegs-api-key: $PUBLIC_API_KEY" https://$PUBLIC_API_DOMAIN/openapi.json > openapi/openapi.json
       - npm run build
-      - |
+      - |-
         if [ $ENVIRONMENT != "prod" ] && [ $ENVIRONMENT != "fuji" ]; then
           cat <<- '  EOF' | sed -r 's/^ {2}//' > build/robots.txt
           User-agent: *
