@@ -5,6 +5,7 @@ import Layout from "@theme/Layout";
 import styles from "./index.module.css";
 
 export default function Home(): JSX.Element {
+  const APPLICATION_FORM_URL = "https://forms.gle/6tMwevFCicd9nYoCA"
   return (
     <Layout
       title="Joepegs Public API"
@@ -20,7 +21,7 @@ export default function Home(): JSX.Element {
         <p>Apply for API Key for access. Free for community builders. </p>
 
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/apply_key">
+          <Link className="button button--secondary button--lg" href={APPLICATION_FORM_URL}>
             Apply for API Key
           </Link>
         </div>
@@ -32,7 +33,7 @@ export default function Home(): JSX.Element {
       <p><Link href="https://joepegs.com">Joepegs</Link> is an NFT marketplace on the Avalanche blockchain. We help users discover great NFTs through our launchpad and our decentralized marketplace.</p>
 
       <h2>What can I build with it?</h2>
-      <p>The Joepegs Public API is free for community builders. <Link to="/apply_key">Apply here</Link> and tell us what you're building! We'd love to help.</p>
+      <p>The Joepegs Public API is free for community builders. <Link href={APPLICATION_FORM_URL}>Apply here</Link> and tell us what you're building! We'd love to help.</p>
       
       <h2>What chains are supported?</h2>
       <p>Avalanche C-Chain, and its testnet Fuji.</p>
