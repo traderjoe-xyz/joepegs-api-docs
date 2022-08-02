@@ -14,7 +14,7 @@ const config = {
   title: "Joepegs API",
   tagline:
     "Joepegs is the trusted NFT Marketplace on Avalanche. The Joepegs API provides access to NFT collection, item and owner data.",
-  url: "https://joepegs.dev",
+  url: "https://api.joepegs.dev",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
