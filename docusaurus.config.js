@@ -77,6 +77,7 @@ const config = {
         },
         items: [
           { to: "/api", label: "API", position: "left" },
+          { to: "/docs/exchange", label: "Exchange", position: "left" },
           { to: "/docs/metadata", label: "Metadata", position: "left" },
           { to: "/docs/images", label: "Images", position: "left" },
         ],
@@ -88,6 +89,7 @@ const config = {
             title: "Docs",
             items: [
               { to: "/api", label: "API Docs", position: "left" },
+              { to: "/docs/exchange", label: "Exchange", position: "left" },
               { to: "/docs/metadata", label: "Metadata Specs", position: "left" },
               { to: "/docs/images", label: "Image Specs", position: "left" },
             ],
