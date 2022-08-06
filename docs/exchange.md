@@ -1,7 +1,7 @@
 # Joepegs Exchange
 
 ### Overview
-Joepegs exchange is based on [https://docs.looksrare.org/developers/looksrare-exchange-overview](LooksRare) hybrid on-chain & off-chain architectures. In a nutshell:
+Joepegs exchange is based on [LooksRare](https://docs.looksrare.org/developers/looksrare-exchange-overview) hybrid on-chain & off-chain architectures. In a nutshell:
 - Non-custodial exchange, meaning contracts don't hold user NFTs or funds until transaction confirmed. 
 - Listings and Offers are stored off-chain as EIP-712 signatures. 
 - Buyer and seller orders are then matched with off-chain listings and offers to execute trades for NFTs. 
