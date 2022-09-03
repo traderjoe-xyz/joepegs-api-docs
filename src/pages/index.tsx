@@ -8,12 +8,12 @@ export default function Home(): JSX.Element {
   const APPLICATION_FORM_URL = "https://forms.gle/6tMwevFCicd9nYoCA"
   return (
     <Layout
-      title="Joepegs Public API"
+      title="Joepegs API"
       description="NFT API, Free for the Community."
     >
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">Joepegs Public API</h1>
+        <h1 className="hero__title">Joepegs API</h1>
         <p className="hero__subtitle">
           API for NFT Collection, Item, and Owner data on the Joepegs NFT
           marketplace.
@@ -39,11 +39,13 @@ export default function Home(): JSX.Element {
       <p>Avalanche C-Chain, and its testnet Fuji.</p>
 
       <h2>Do you support a specific metdata?</h2>
-      <p>We follow Opensea metadata standards. Read <Link to="/docs/metadata">here</Link> for more.</p>
+      <p>Read <Link to="/docs/metadata">here</Link> for more.</p>
 
       <h2>How can I get higher rate limits?</h2>
       <p><Link href="mailto:public-api@joepegs.com">Contact us</Link> to discuss.</p>
 
+      <h2>How do I get access to Partner Only endpoints?</h2>
+      <p><Link href="mailto:public-api@joepegs.com">Contact us</Link> and tell us what you're building!</p>
 
     </main>
     </Layout>
