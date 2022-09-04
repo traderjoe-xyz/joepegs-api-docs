@@ -5,9 +5,9 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 // links
-const APPLICATION_FORM_URL = "https://forms.gle/6tMwevFCicd9nYoCA"
-const VERIFICATION_FORM_URL = "https://forms.gle/ApNx6VvH6zK8kPpDA"
-const LAUNCHPAD_FORM_URL = "https://forms.gle/ApNx6VvH6zK8kPpDA"
+const APPLICATION_FORM_URL = "https://forms.gle/6tMwevFCicd9nYoCA";
+const VERIFICATION_FORM_URL = "https://forms.gle/ApNx6VvH6zK8kPpDA";
+const LAUNCHPAD_FORM_URL = "https://forms.gle/ApNx6VvH6zK8kPpDA";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -78,8 +78,13 @@ const config = {
         items: [
           { to: "/api", label: "API", position: "left" },
           { to: "/docs/exchange", label: "Exchange", position: "left" },
-          { to: "/docs/metadata", label: "Metadata", position: "left" },
+          {
+            to: "/docs/auction-house",
+            label: "Auction House",
+            position: "left",
+          },
           { to: "/docs/images", label: "Images", position: "left" },
+          { to: "/docs/metadata", label: "Metadata", position: "left" },
         ],
       },
       footer: {
@@ -90,7 +95,11 @@ const config = {
             items: [
               { to: "/api", label: "API Docs", position: "left" },
               { to: "/docs/exchange", label: "Exchange", position: "left" },
-              { to: "/docs/metadata", label: "Metadata Specs", position: "left" },
+              {
+                to: "/docs/metadata",
+                label: "Metadata Specs",
+                position: "left",
+              },
               { to: "/docs/images", label: "Image Specs", position: "left" },
             ],
           },
@@ -113,7 +122,6 @@ const config = {
               { href: APPLICATION_FORM_URL, label: "Apply API Key" },
               { href: VERIFICATION_FORM_URL, label: "Apply Verification" },
               { href: LAUNCHPAD_FORM_URL, label: "Apply Launchpad" },
-
             ],
           },
         ],
