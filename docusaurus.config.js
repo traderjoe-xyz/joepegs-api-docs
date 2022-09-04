@@ -79,7 +79,7 @@ const config = {
           { to: "/api", label: "API", position: "left" },
           { to: "/docs/exchange", label: "Exchange", position: "left" },
           {
-            to: "/docs/auction_house",
+            to: "/docs/auction-house",
             label: "Auction House",
             position: "left",
           },
