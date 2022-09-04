@@ -26,7 +26,7 @@ const sidebars = {
     },
   ],
    */
-  sidebar: ["exchange", "auction_house", "images", "metadata"],
+  sidebar: ["exchange", "auction-house", "images", "metadata"],
 };
 
 module.exports = sidebars;
