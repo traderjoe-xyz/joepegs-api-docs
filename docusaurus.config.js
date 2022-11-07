@@ -23,7 +23,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "traderjoe-xyz", // Usually your GitHub org/user name.
-  projectName: "barn-docs", // Usually your repo name.
+  projectName: "joepegs-api-docs", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -61,6 +61,9 @@ const config = {
         theme: {
           // Change with your site colors
           primaryColor: "#1890ff",
+          options: {
+            downloadDefinitionUrl: 'https://api.joepegs.dev/openapi.json'
+          }
         },
       },
     ],
