@@ -38,7 +38,7 @@ export default function Home(): JSX.Element {
       <h2>What chains are supported?</h2>
       <p>Avalanche C-Chain, and its testnet Fuji.</p>
 
-      <h2>Do you support a specific metdata?</h2>
+      <h2>Do you support a specific metadata?</h2>
       <p>Read <Link to="/docs/metadata">here</Link> for more.</p>
 
       <h2>How can I get higher rate limits?</h2>
